@@ -7,7 +7,6 @@ from django.db import models
 
 
 class CustomText(models.Model):
-    title = models.CharField(max_length=150,)
     test = models.TimeField(null=True, blank=True,)
     testtt = models.BigIntegerField(null=True, blank=True,)
     hgfhgf = models.BigIntegerField(null=True, blank=True,)
